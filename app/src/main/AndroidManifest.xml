@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AlertsActivity"
+            android:label="@string/title_activity_alerts"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <receiver android:name=".AlertReceiver" />
     </application>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
